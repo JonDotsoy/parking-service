@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=file:///Users/jondotsoy/Repositories/jondotsoy/parking-service/src/lib/db/stone.db/collection.schema.json
+
+models:
+  Parking:
+    properties:
+      id:
+        type: string
+        optional: true
+      location:
+        type: string
+      owner:
+        type: string
+      createdAt:
+        type: number
